@@ -20,7 +20,7 @@
         /// <summary>
         /// The release Year
         /// </summary>
-        public int ReleaseYear { get; set; }   
+        public int? ReleaseYear { get; set; }   
         
         /// <summary>
         /// Category of people who can watch film
@@ -35,12 +35,12 @@
         /// <summary>
         /// Genres of the movie
         /// </summary>
-        public List<string> Genres { get; set; }
+        public List<string>? Genres { get; set; }
 
         /// <summary>
         /// The production country in ISO 3166-1 Alpha-3 code
         /// </summary>
-        public string ProductionCountry { get; set; }
+        public string? ProductionCountry { get; set; }
 
         /// <summary>
         /// The number of seasons for series or be empty for movies

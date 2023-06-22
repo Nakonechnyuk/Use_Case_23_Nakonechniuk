@@ -15,16 +15,16 @@
         /// <summary>
         /// Full credits member name
         /// </summary>
-        public string RealName { get; set; }
+        public string? RealName { get; set; }
 
         /// <summary>
         /// Corresponding movie (series) character nam
         /// </summary>
-        public string CharacterName { get; set; }
+        public string? CharacterName { get; set; }
 
         /// <summary>
         /// Represent corresponding role
         /// </summary>
-        public string Role { get; set; }
+        public string? Role { get; set; }
     }
 }
